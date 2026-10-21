@@ -10,9 +10,22 @@ body {
     background-color: rgb(255, 255, 160);
 }
 
-img {
+.mainimg {
     width: 500px;
     height: auto;
+}
+
+.imgbox {
+    
+    width: 500px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.imgbox img {
+    width: calc((100% - 10px) / 3);
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 
 
@@ -20,7 +33,10 @@ h1 {
     color: cornflowerblue;
 }
 
-
+p   {
+    color: cornflowerblue;
+    font-weight: 500;
+}
 
 a   {
     text-decoration: none;
