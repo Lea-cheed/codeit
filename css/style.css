@@ -28,7 +28,8 @@ body {
 }
 
 
-h1 {
+h1,
+h4 {
     color: cornflowerblue;
 }
 
@@ -50,3 +51,51 @@ a:hover{
     color:  palevioletred;
     background-color: palegreen;
 }
+
+
+
+
+
+
+article input,
+article select {
+    box-sizing: border-box;
+    width: 320px;
+    height: 52px;
+    padding: 14px 18px;
+
+    border: 2px solid #ffd1df;
+    border-radius: 20px;
+    background-color: #fff5f8;
+
+    font-size: 16px;
+    color: #555;
+}
+
+
+article input:focus,
+article select:focus {
+    outline: none;
+    border-color: #ff8fb3;
+    box-shadow: 0 0 0 4px #ffe3ed;
+}
+
+
+.save-btn {
+    margin-top: 24px;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff8fb3;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    box-shadow: 0 4px 0 #e97599;
+}
+
+.save-btn:active {
+    transform: translateY(4px);
+    box-shadow: none;
+}
+
+
