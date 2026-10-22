@@ -236,7 +236,6 @@ article select:focus {
 /* 개별 곰돌이 카드 */
 .bear-card {
     flex: 1;
-    min-width: 0;
     background-color: #fffdf0;
     border: 3px solid #f5c6d6;
     border-radius: 20px;
