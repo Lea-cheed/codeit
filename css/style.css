@@ -132,6 +132,14 @@ footer {
 
 
 /* 대답해줘 페이지*/
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+
 label{
     display: block;
     padding: 20px 0;
