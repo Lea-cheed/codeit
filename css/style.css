@@ -199,11 +199,14 @@ article select:focus {
 }
 
 .description-page nav ul {
+    position: fixed;
     display: flex;
+    width: 100%;
     justify-content: center;
     gap: 30px;
     padding: 0;
     list-style: none;
+    
 }
 
 
